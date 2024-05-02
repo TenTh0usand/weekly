@@ -12,9 +12,9 @@ export function GET() {
   posts.splice(12);
 
   return rss({
-    title: '潮流周刊',
-    description: '记录工程师 Tw93 的不枯燥生活',
-    site: 'https://weekly.tw93.fun/',
+    title: 'Med-10k周刊',
+    description: '记录医学生 10k 的不枯燥生活',
+    site: 'https://weekly.60004000.xyz/',
     customData: `<image><url>https://gw.alipayobjects.com/zos/k/qv/coffee-2-icon.png</url></image>`,
     items: posts.map((item) => {
       const url = item.url;
